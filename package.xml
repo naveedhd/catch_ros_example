@@ -1,0 +1,13 @@
+<package format="2">
+  <name>catch_ros_example</name>
+  <description>Catch ROS example</description>
+  <version>0.1.0</version>
+  <license>TODO</license>
+  <author email="naveedhd@gmail.com">Naveed Usmani</author>
+  <maintainer email="naveedhd@gmail.com">Naveed Usmani</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>catch_ros</depend>
+
+</package>
