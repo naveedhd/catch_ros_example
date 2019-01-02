@@ -6,8 +6,11 @@
   <author email="naveedhd@gmail.com">Naveed Usmani</author>
   <maintainer email="naveedhd@gmail.com">Naveed Usmani</maintainer>
 
+  <url type="repository">https://github.com/naveedhd/catch_ros_example</url>
+
   <buildtool_depend>catkin</buildtool_depend>
 
   <depend>catch_ros</depend>
+  <depend>roscpp</depend>
 
 </package>

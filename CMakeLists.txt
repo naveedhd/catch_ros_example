@@ -3,10 +3,13 @@ project(catch_ros_example)
 
 find_package(catkin REQUIRED COMPONENTS
   catch_ros
+  roscpp
 )
 
 catkin_package(
-  CATKIN_DEPENDS catch_ros
+  CATKIN_DEPENDS
+    catch_ros
+    roscpp
 )
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
@@ -16,6 +19,5 @@ include_directories(
 )
 
 if(CATKIN_ENABLE_TESTING)
-  catch_add_test(catch_test test/catch_test.cpp)
-  target_link_libraries(catch_test ${catkin_LIBRARIES})
+  add_subdirectory(test)
 endif()

@@ -1,0 +1,3 @@
+<launch>
+  <test pkg="catch_ros_example" type="catch_ros_test" test-name="catch_ros_test" />
+</launch>
